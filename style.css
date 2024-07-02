@@ -61,8 +61,19 @@ header {
   left: 0;
   width: 100%;
   padding: 1rem;
-  background-color: var(--bg-color-01);
+  background-color: var(--bg-color-02);
+  border-radius: 3rem;
+  
 }
+
+.nav-responsive.active {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 .nav a,
 .nav-responsive a {
@@ -441,11 +452,11 @@ footer {
     width: 20rem;
   }
 
-  header {
+  /* header {
         background-color: var(--color-04)
             
          ;
-    }
+    } */
 }
 
 /* celular no modo vertical */

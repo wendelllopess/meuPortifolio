@@ -8,18 +8,12 @@ menuHamburguer.addEventListener('click', (event) => {
 
 document.addEventListener('click', (event) => {
     if (!nav.contains(event.target) && !menuHamburguer.contains(event.target)) {
-        nav.style.display = 'none';
+        nav.classList.remove('active');
         menuHamburguer.classList.remove('change');
     }
 });
 
 function togglerMenu() {
     menuHamburguer.classList.toggle('change');
-    if (menuHamburguer.classList.contains('change')) {
-        nav.style.display = 'block';
-    } else {
-        nav.style.display = 'none';
-    }
+    nav.classList.toggle('active');
 }
-
-
