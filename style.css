@@ -11,12 +11,26 @@
   outline: none;
   scroll-behavior: smooth;
 }
+/* 
+tons preto
+.color1 {color: #000000;}
+.color2 {color: #122241;}
+.color3 {color: #3a5693;}
+.color4 {color: #6991f1;}
+.color5 {color: #9fd1ff;} */
+
+/* tons azul
+.color1 {color: #001a2f;}
+.color2 {color: #003f61;}
+.color3 {color: #00709f;}
+.color4 {color: #00ade6;}
+.color5 {color: #00f8ff;} */
 
 :root {
   --main-color: #00eeff;
-  --text-color: #ffffff;
-  --bg-color-01: #17191e;
-  --bg-color-02: #1f242d;
+  --text-color: #FBF5F3;
+  --bg-color-01: #001120;
+  --bg-color-02: #252526;
   --color-00: #0000001a;
 
   /* Extra */
