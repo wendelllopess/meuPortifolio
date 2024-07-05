@@ -27,18 +27,18 @@ tons preto
 .color5 {color: #00f8ff;} */
 
 :root {
-  --main-color: #00eeff;
+   --span-color:#00f8ff;
   --text-color: #FBF5F3;
   --bg-color-01: #001120;
-  --bg-color-02: #252526;
-  --color-00: #0000001a;
+  --bg-color-02: #001a2f;;
+  --bordas-00:#00ade6;
 
   /* Extra */
   --color-01: #999999;
   --color-02: #009539;
   --color-03: #7950f2;
   --color-04: #c00000;
-  --color-05: #232323;
+  --color-05:  #39b5eb;
 }
 
 body {
@@ -52,7 +52,7 @@ header {
   left: 0;
   width: 100%;
   padding: 1.1rem;
-  background-color: var(--bg-color-01);
+  background-color: var(--bg-color-02);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,7 +101,7 @@ header {
 
 .nav a:hover,
 .nav-responsive a:hover {
-  color: var(--main-color);
+  color: var(--color-05);
 }
 
 section {
@@ -110,7 +110,7 @@ section {
 }
 
 span {
-  color: var(--main-color);
+  color: var(--color-05);
   font-size: 2rem;
 }
 
@@ -125,14 +125,14 @@ span {
 .home-img {
   border-right: solid 0.5rem;
   border-bottom: solid 0.5rem;
-  border-image: linear-gradient(140deg, transparent 60%, var(--main-color)) 1;
+  border-image: linear-gradient(140deg, transparent 60%, var(--color-05)) 1;
   height: 40%;
 }
 
 .sobre-img {
   border-left: solid 0.5rem;
   border-bottom: solid 0.5rem;
-  border-image: linear-gradient(225deg, transparent 60%, var(--main-color)) 1;
+  border-image: linear-gradient(225deg, transparent 60%, var(--color-05)) 1;
 }
 
 .home-img img,
@@ -194,19 +194,19 @@ span {
   padding: 2rem 1rem 2.5rem;
   border-radius: 1.2rem;
   text-align: center;
-  border: solid 0.15rem var(--color-03);
+  border: solid 0.15rem var(--bordas-00);
   background-color: var(--bg-color-02);
   transition: 0.5s ease;
 }
 
 .servico-container .servico-box:hover {
-  border-color: var(--main-color);
+  border-color: var(--span-color);
   transform: scale(1.01);
 }
 
 .servico-box i {
   font-size: 4.3rem;
-  color: var(--main-color);
+  color: var(--span-color);
 }
 
 .servico-box h3 {
@@ -227,7 +227,7 @@ span {
 .btn {
   display: inline-block;
   padding: 0.7rem 1.8rem;
-  background-color: var(--main-color);
+  background-color: var(--span-color);
   border-radius: 2rem;
   color: var(--bg-color-02);
   font-weight: 600;
@@ -238,9 +238,9 @@ span {
 }
 
 .btn:hover {
-  box-shadow: 0 0 0.3rem var(--main-color);
+  box-shadow: 0 0 0.3rem var(--color-05);
   background-color: inherit;
-  color: var(--main-color);
+  color: var(--color-05);
 }
 
 .portifolio {
@@ -364,7 +364,7 @@ footer {
   width: 2.5rem;
   height: 2.5rem;
   background: transparent;
-  border: solid 0.15rem var(--main-color);
+  border: solid 0.15rem var(--color-05);
   border-radius: 50%;
   color: var(--text-color);
   margin: 1.8rem 0.8rem;
@@ -372,9 +372,9 @@ footer {
 }
 
 .social-media a:hover {
-  background-color: var(--main-color);
+  background-color: var(--color-05);
   color: var(--bg-color-02);
-  box-shadow: 0 0 0.8rem var(--main-color);
+  box-shadow: 0 0 0.8rem var(--span-color);
 }
 
 .social-media a i {
